@@ -84,12 +84,28 @@ a:hover{
     
     height: 720px;
     width: 100%;
+
 }
 
 .secao h2{
-    margin: 50px;
+    margin-top: 50px;
 
-    color: #000;
+    color: white;
+}
+
+#figure p{
+    font-size: small;
+
+    margin: 7px;
+}
+
+.cont{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
 }
 
 #story{
@@ -98,6 +114,13 @@ a:hover{
     width: 100%;
 
     text-align: center;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#play{
+    background-color: rgb(36,32,32);
 
     display: flex;
     flex-flow: column;
@@ -114,6 +137,36 @@ section{
     border-radius: 20px;
     
     width: 60%;
+}
+
+.persona{
+    width: 200px;
+    height: 100%;
+
+    margin-top: 80px;
+    /* margin-bottom: 100px; */
+
+    background: #181313;
+    border: 2px solid rgb(36,32,32);
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.persona a{
+    width: 100%;
+    color: white;
+}
+.persona a:hover{
+    color: darkorange;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+span{
+    color: darkorange;
 }
 
 footer{
