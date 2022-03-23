@@ -7,7 +7,8 @@ function q1() {
         var resposta= prompt("Qual sua resposta 1, 2, 3 ou 4\n digite apenas o número");
         
         if (resposta==3) {
-            alert("Parabéns!! Faltam apenas 2 etapas para desarmar a bomba completamente!");
+            alert("Loading...");
+            break;
         } else if (resposta!=3) {
             alert("Você possui apenas mais uma chance!!!");
             vidas--
@@ -24,11 +25,11 @@ function q2() {
     var resposta= prompt("Qual sua resposta 1, 2, 3 ou 4\n digite apenas o número ;)");
     while (vidas>0) {
         if (resposta==4) {
-            alert("Parabéns!! Faltam apenas 2 etapas para desarmar a bomba completamente!");
+            alert("Loading...");
             break;
         } else if (resposta!=4) {
-            vidas--
             alert("Você possui apenas mais uma chance!!!");
+            vidas--
         }   
     }
     if (vidas<=0) {
@@ -42,11 +43,11 @@ function q3() {
     var resposta= prompt("Qual sua resposta 1, 2, 3 ou 4\n digite apenas o número ;)");
     while (vidas>0) {
         if (resposta==1) {
-            alert("Parabéns!! Faltam apenas 2 etapas para desarmar a bomba completamente!");
+            alert("Loading...");
             break;
         } else if (resposta!=1) {
-            vidas--
             alert("Você possui apenas mais uma chance!!!");
+            vidas--
         }   
     }
     if (vidas<=0) {
@@ -60,11 +61,11 @@ function q4() {
     var resposta= prompt("Qual sua resposta 1, 2, 3 ou 4\n digite apenas o número ;)");
     while (vidas>0) {
         if (resposta==2) {
-            alert("Parabéns!! Faltam apenas 2 etapas para desarmar a bomba completamente!");
+            alert("Loading...");
             break;
         } else if (resposta!=2) {
-            vidas--
             alert("Você possui apenas mais uma chance!!!");
+            vidas--
         }   
     }
     if (vidas<=0) {

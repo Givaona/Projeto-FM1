@@ -35,9 +35,15 @@ header{
 }
 img{
     margin: 15px;
+    border-radius: 10px;
+}
+#morse{
+    width: 70%;
 }
 
 h2{
+    margin: 0%;
+    padding: 0%;
     margin: 35px;
 }
 
